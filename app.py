@@ -211,7 +211,7 @@ def main():
 with st.sidebar:
     docs = None
     topic = None
-    url = "https://github.com/verobeach7/quizgpt-turbo"
+    url = "https://github.com/verobeach7/quizgpt-turbo/commit/0551d4756badce3a1c0f5a90ecf6bb7891a0039a"
     openai_api_key = st.text_input(
         "OpenAI_API_KEY", placeholder="Add your OpenAI API Key", type="password"
     )
