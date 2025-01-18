@@ -245,8 +245,7 @@ with st.sidebar:
                 # wiki_search를 이용하여 caching
                 docs = wiki_search(topic)
                 difficulty = choose_difficulty()
-    if st.button("GitHub Repo"):
-        webbrowser.open_new_tab(url)
+    st.link_button("GitHub Repo", url)
 
 try:
     main()
